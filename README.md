@@ -4,18 +4,21 @@
 Fitness-House is a web platform that allows users to browse and book fitness courses, while enabling instructors and administrators to manage courses and participants. The project is built with Laravel 8 and uses MySQL for database management. Frontend styling is achieved with Tailwind CSS, and dynamic interactions are handled using JavaScript, including jQuery and Alpine.js.
 
 
+![home](images/Home.png)
+
+
 # Table of Contents
 
-- [Project Description](#project-description)
-- [Key Features](#key-features)
-- [Technologies Used](#technologies-used)
-- [Quick Start](#quick-start)
-- [Database](#database)
-- [Permissions](#permissions)
-- [Mobile & Responsive](#mobile--responsive)
-- [Challenges & Solutions](#challenges--solutions)
-- [License](#license)
-- [Author](#author)
+- [Project Description](#🧐-project-description)
+- [Key Features](#🧩-key-features)
+- [Technologies Used](#👨‍💻-technologies-used)
+- [Quick Start](#⚙️-quick-start)
+- [Database](#💻-database)
+- [Permissions](#🔑-permissions)
+- [Mobile & Responsive](#📱-mobile--responsive)
+- [Challenges & Solutions](#🧪-challenges-and-solutions)
+- [License](#⚠️-License)
+- [Author](#👤-author)
 
 
 
@@ -62,7 +65,7 @@ cd Fitness-House
 2. Install PHP and JS dependencies:
 ```bash
 composer install
-npm install
+npm install v
 ```
 3. Configure the environment:
 ```bash
@@ -158,7 +161,7 @@ CREATE TABLE Courses (
 
 
 
-# 📱 Permissions
+# 🔑 Permissions
 If you were logged in as a regular user, you would not be able to access the
 admin and instructor pages.
 ![Permission denied](images/image.png)
